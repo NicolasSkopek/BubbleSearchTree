@@ -15,6 +15,10 @@ def get_points():
 def get_hp():
     return {"hp": game_instance.hp}
 
+@app.get("/")
+def get_run():
+    return {"Game is running"}
+
 def start_api():
     config = uvicorn.Config(app, host="127.0.0.1", port=8000, log_level="info")
     server = uvicorn.Server(config)
