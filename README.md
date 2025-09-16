@@ -23,7 +23,7 @@ Docker
 
 ## 📁 Estrutura do Projeto
 ```text
-📦 GameProject
+📦 BubbleSearchTree
 ├── 📁 .idea
 │    
 ├── 📁 assets
