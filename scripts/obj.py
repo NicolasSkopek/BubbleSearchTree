@@ -21,3 +21,10 @@ class Obj(pygame.sprite.Sprite):
             if self.frame > frames - 1:
                 self.frame = 0
             self.image = pygame.image.load(path + str(self.frame) + "." + file_type)
+
+class Knot(Obj):
+    def __init__(self, img, pos, value, tier, *groups):
+        super().__init__(img, pos, *groups)
+
+        self.value = value
+        self.tier = tier
