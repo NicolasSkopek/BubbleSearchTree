@@ -1,5 +1,5 @@
 ## Configurações Gerais
 
-WIDTH = 1280
-HEIGHT = 720
-TITLE = ""
+WIDTH = 850
+HEIGHT = 650
+TITLE = "Bubble Search Tree"

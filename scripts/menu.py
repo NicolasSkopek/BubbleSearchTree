@@ -8,7 +8,7 @@ class Menu(Scene):
 
     def __init__(self):
         super().__init__()
-
+        self.next_scene()
 
     def next_scene(self):
         self.active = False
